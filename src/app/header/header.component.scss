@@ -1,0 +1,33 @@
+nav {
+    background: rgb(7, 71, 166);
+    height: 65px;
+        h1.app-title {
+            float: left;
+            line-height: 65px;
+            font-size: 20px;
+            padding-left: 15px;
+            color: #fff;
+            margin: 0;
+            font-weight: 600;
+        }
+        ul.rightNav {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            float: right;
+
+            li {
+                float: left;
+
+                a {
+                    color: #fff;
+                    padding: 18px 20px;
+                    display: block;
+                }
+
+                .activated {
+                    background-color: #00a8ff;
+                }
+            }
+        }
+}
